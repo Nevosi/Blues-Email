@@ -1,0 +1,1005 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>News</title>
+	<style type="text/css">
+		/* /\/\/\/\/\/\/\/\/ CLIENT-SPECIFIC STYLES /\/\/\/\/\/\/\/\/ */
+
+		#outlook a {
+			padding: 0;
+		}
+		/* Force Outlook to provide a "view in browser" message */
+
+		.ReadMsgBody {
+			width: 100%;
+		}
+
+		.ExternalClass {
+			width: 100%;
+		}
+		/* Force Hotmail to display emails at full width */
+
+		.ExternalClass,
+		.ExternalClass p,
+		.ExternalClass span,
+		.ExternalClass font,
+		.ExternalClass td,
+		.ExternalClass div {
+			line-height: 100%;
+		}
+		/* Force Hotmail to display normal line spacing */
+
+		body,
+		table,
+		td,
+		p,
+		a,
+		li,
+		blockquote {
+			-webkit-text-size-adjust: 100%;
+			-ms-text-size-adjust: 100%;
+		}
+		/* Prevent WebKit and Windows mobile changing default text sizes */
+
+		table,
+		td {
+			mso-table-lspace: 0pt;
+			mso-table-rspace: 0pt;
+		}
+		/* Remove spacing between tables in Outlook 2007 and up */
+
+		img {
+			-ms-interpolation-mode: bicubic;
+		}
+		/* Allow smoother rendering of resized image in Internet Explorer */
+		/* /\/\/\/\/\/\/\/\/ RESET STYLES /\/\/\/\/\/\/\/\/ */
+
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		img {
+			border: 0;
+			height: auto;
+			line-height: 100%;
+			outline: none;
+			text-decoration: none;
+		}
+
+		table {
+			border-collapse: collapse !important;
+		}
+
+		body,
+		#bodyTable,
+		#bodyCell {
+			height: 100% !important;
+			margin: 0;
+			padding: 0;
+			width: 100% !important;
+		}
+		/* /\/\/\/\/\/\/\/\/ TEMPLATE STYLES /\/\/\/\/\/\/\/\/ */
+		/* ========== Page Styles ========== */
+
+		#bodyCell {
+			padding: 20px;
+		}
+
+		#templateContainer {
+			width: 600px;
+		}
+		/**
+			* @tab Page
+			* @section background style
+			* @tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+			* @theme page
+			*/
+
+		body,
+		#bodyTable {
+			/*@editable*/
+			background-color: #DEE0E2;
+		}
+		/**
+			* @tab Page
+			* @section background style
+			* @tip Set the background color and top border for your email. You may want to choose colors that match your company's branding.
+			* @theme page
+			*/
+
+		#bodyCell {
+			/*@editable*/
+			border-top: 4px solid #BBBBBB;
+		}
+		/**
+			* @tab Page
+			* @section email border
+			* @tip Set the border for your email.
+			*/
+
+		#templateContainer {
+			/*@editable*/
+			border: 1px solid #BBBBBB;
+		}
+		/**
+			* @tab Page
+			* @section heading 1
+			* @tip Set the styling for all first-level headings in your emails. These should be the largest of your headings.
+			* @style heading 1
+			*/
+
+		h1 {
+			/*@editable*/
+			color: #202020 !important;
+			display: block;
+			/*@editable*/
+			font-family: Helvetica;
+			/*@editable*/
+			font-size: 26px;
+			/*@editable*/
+			font-style: normal;
+			/*@editable*/
+			font-weight: bold;
+			/*@editable*/
+			line-height: 100%;
+			/*@editable*/
+			letter-spacing: normal;
+			margin-top: 0;
+			margin-right: 0;
+			margin-bottom: 10px;
+			margin-left: 0;
+			/*@editable*/
+			text-align: left;
+		}
+		/**
+			* @tab Page
+			* @section heading 2
+			* @tip Set the styling for all second-level headings in your emails.
+			* @style heading 2
+			*/
+
+		h2 {
+			/*@editable*/
+			color: #404040 !important;
+			display: block;
+			/*@editable*/
+			font-family: Helvetica;
+			/*@editable*/
+			font-size: 20px;
+			/*@editable*/
+			font-style: normal;
+			/*@editable*/
+			font-weight: bold;
+			/*@editable*/
+			line-height: 100%;
+			/*@editable*/
+			letter-spacing: normal;
+			margin-top: 0;
+			margin-right: 0;
+			margin-bottom: 10px;
+			margin-left: 0;
+			/*@editable*/
+			text-align: left;
+		}
+		/**
+			* @tab Page
+			* @section heading 3
+			* @tip Set the styling for all third-level headings in your emails.
+			* @style heading 3
+			*/
+
+		h3 {
+			/*@editable*/
+			color: #606060 !important;
+			display: block;
+			/*@editable*/
+			font-family: Helvetica;
+			/*@editable*/
+			font-size: 16px;
+			/*@editable*/
+			font-style: italic;
+			/*@editable*/
+			font-weight: normal;
+			/*@editable*/
+			line-height: 100%;
+			/*@editable*/
+			letter-spacing: normal;
+			margin-top: 0;
+			margin-right: 0;
+			margin-bottom: 10px;
+			margin-left: 0;
+			/*@editable*/
+			text-align: left;
+		}
+		/**
+			* @tab Page
+			* @section heading 4
+			* @tip Set the styling for all fourth-level headings in your emails. These should be the smallest of your headings.
+			* @style heading 4
+			*/
+
+		h4 {
+			/*@editable*/
+			color: #808080 !important;
+			display: block;
+			/*@editable*/
+			font-family: Helvetica;
+			/*@editable*/
+			font-size: 14px;
+			/*@editable*/
+			font-style: italic;
+			/*@editable*/
+			font-weight: normal;
+			/*@editable*/
+			line-height: 100%;
+			/*@editable*/
+			letter-spacing: normal;
+			margin-top: 0;
+			margin-right: 0;
+			margin-bottom: 10px;
+			margin-left: 0;
+			/*@editable*/
+			text-align: left;
+		}
+		/* ========== Header Styles ========== */
+		/**
+			* @tab Header
+			* @section preheader style
+			* @tip Set the background color and bottom border for your email's preheader area.
+			* @theme header
+			*/
+
+		#templatePreheader {
+			/*@editable*/
+			background-color: #F4F4F4;
+			/*@editable*/
+			border-bottom: 1px solid #CCCCCC;
+		}
+		/**
+			* @tab Header
+			* @section preheader text
+			* @tip Set the styling for your email's preheader text. Choose a size and color that is easy to read.
+			*/
+
+		.preheaderContent {
+			/*@editable*/
+			color: #808080;
+			/*@editable*/
+			font-family: Helvetica;
+			/*@editable*/
+			font-size: 10px;
+			/*@editable*/
+			line-height: 125%;
+			/*@editable*/
+			text-align: left;
+		}
+		/**
+			* @tab Header
+			* @section preheader link
+			* @tip Set the styling for your email's preheader links. Choose a color that helps them stand out from your text.
+			*/
+
+		.preheaderContent a:link,
+		.preheaderContent a:visited,
+		/* Yahoo! Mail Override */
+
+		.preheaderContent a .yshortcuts
+		/* Yahoo! Mail Override */
+
+		{
+			/*@editable*/
+			color: #606060;
+			/*@editable*/
+			font-weight: normal;
+			/*@editable*/
+			text-decoration: underline;
+		}
+		/**
+			* @tab Header
+			* @section header style
+			* @tip Set the background color and borders for your email's header area.
+			* @theme header
+			*/
+
+		#templateHeader {
+			/*@editable*/
+			background-color: #F4F4F4;
+			/*@editable*/
+			border-top: 1px solid #FFFFFF;
+			/*@editable*/
+			border-bottom: 1px solid #CCCCCC;
+		}
+		/**
+			* @tab Header
+			* @section header text
+			* @tip Set the styling for your email's header text. Choose a size and color that is easy to read.
+			*/
+
+		.headerContent {
+			/*@editable*/
+			color: #505050;
+			/*@editable*/
+			font-family: Helvetica;
+			/*@editable*/
+			font-size: 20px;
+			/*@editable*/
+			font-weight: bold;
+			/*@editable*/
+			line-height: 100%;
+			/*@editable*/
+			padding-top: 0;
+			/*@editable*/
+			padding-right: 0;
+			/*@editable*/
+			padding-bottom: 0;
+			/*@editable*/
+			padding-left: 0;
+			/*@editable*/
+			text-align: left;
+			/*@editable*/
+			vertical-align: middle;
+		}
+		/**
+			* @tab Header
+			* @section header link
+			* @tip Set the styling for your email's header links. Choose a color that helps them stand out from your text.
+			*/
+
+		.headerContent a:link,
+		.headerContent a:visited,
+		/* Yahoo! Mail Override */
+
+		.headerContent a .yshortcuts
+		/* Yahoo! Mail Override */
+
+		{
+			/*@editable*/
+			color: #003EFF;
+			/*@editable*/
+			font-weight: normal;
+			/*@editable*/
+			text-decoration: underline;
+		}
+
+		#headerImage {
+			height: auto;
+			max-width: 600px;
+		}
+		/* ========== Body Styles ========== */
+		/**
+			* @tab Body
+			* @section body style
+			* @tip Set the background color and borders for your email's body area.
+			*/
+
+		#templateBody {
+			/*@editable*/
+			background-color: #F4F4F4;
+			/*@editable*/
+			border-top: 1px solid #FFFFFF;
+			/*@editable*/
+			border-bottom: 1px solid #CCCCCC;
+		}
+		/**
+			* @tab Body
+			* @section body text
+			* @tip Set the styling for your email's main content text. Choose a size and color that is easy to read.
+			* @theme main
+			*/
+
+		.bodyContent {
+			/*@editable*/
+			color: #505050;
+			/*@editable*/
+			font-family: Helvetica;
+			/*@editable*/
+			font-size: 16px;
+			/*@editable*/
+			line-height: 150%;
+			padding-top: 20px;
+			padding-right: 20px;
+			padding-bottom: 20px;
+			padding-left: 20px;
+			/*@editable*/
+			text-align: left;
+		}
+		/**
+			* @tab Body
+			* @section body link
+			* @tip Set the styling for your email's main content links. Choose a color that helps them stand out from your text.
+			*/
+
+		.bodyContent a:link,
+		.bodyContent a:visited,
+		/* Yahoo! Mail Override */
+
+		.bodyContent a .yshortcuts
+		/* Yahoo! Mail Override */
+
+		{
+			/*@editable*/
+			color: #003EFF;
+			/*@editable*/
+			font-weight: normal;
+			/*@editable*/
+			text-decoration: underline;
+		}
+
+		.bodyContent img {
+			display: inline;
+			height: auto;
+			max-width: 560px;
+		}
+		/* ========== Column Styles ========== */
+
+		.templateColumnContainer {
+			display: inline;
+			width: 260px;
+		}
+		/**
+			* @tab Columns
+			* @section column style
+			* @tip Set the background color and borders for your email's column area.
+			*/
+
+		#templateColumns {
+			/*@editable*/
+			background-color: #F4F4F4;
+			/*@editable*/
+			border-top: 1px solid #FFFFFF;
+			/*@editable*/
+			border-bottom: 1px solid #CCCCCC;
+		}
+		/**
+			* @tab Columns
+			* @section left column text
+			* @tip Set the styling for your email's left column content text. Choose a size and color that is easy to read.
+			*/
+
+		.leftColumnContent {
+			/*@editable*/
+			color: #505050;
+			/*@editable*/
+			font-family: Helvetica;
+			/*@editable*/
+			font-size: 14px;
+			/*@editable*/
+			line-height: 150%;
+			padding-top: 0;
+			padding-right: 0;
+			padding-bottom: 20px;
+			padding-left: 0;
+			/*@editable*/
+			text-align: left;
+		}
+		/**
+			* @tab Columns
+			* @section left column link
+			* @tip Set the styling for your email's left column content links. Choose a color that helps them stand out from your text.
+			*/
+
+		.leftColumnContent a:link,
+		.leftColumnContent a:visited,
+		/* Yahoo! Mail Override */
+
+		.leftColumnContent a .yshortcuts
+		/* Yahoo! Mail Override */
+
+		{
+			/*@editable*/
+			color: #003EFF;
+			/*@editable*/
+			font-weight: normal;
+			/*@editable*/
+			text-decoration: underline;
+		}
+		/**
+			* @tab Columns
+			* @section right column text
+			* @tip Set the styling for your email's right column content text. Choose a size and color that is easy to read.
+			*/
+
+		.rightColumnContent {
+			/*@editable*/
+			color: #505050;
+			/*@editable*/
+			font-family: Helvetica;
+			/*@editable*/
+			font-size: 14px;
+			/*@editable*/
+			line-height: 150%;
+			padding-top: 0;
+			padding-right: 0;
+			padding-bottom: 20px;
+			padding-left: 0;
+			/*@editable*/
+			text-align: left;
+		}
+		/**
+			* @tab Columns
+			* @section right column link
+			* @tip Set the styling for your email's right column content links. Choose a color that helps them stand out from your text.
+			*/
+
+		.rightColumnContent a:link,
+		.rightColumnContent a:visited,
+		/* Yahoo! Mail Override */
+
+		.rightColumnContent a .yshortcuts
+		/* Yahoo! Mail Override */
+
+		{
+			/*@editable*/
+			color: #003EFF;
+			/*@editable*/
+			font-weight: normal;
+			/*@editable*/
+			text-decoration: underline;
+		}
+
+		.leftColumnContent img,
+		.rightColumnContent img {
+			display: inline;
+			height: auto;
+			max-width: 260px;
+		}
+		/* ========== Footer Styles ========== */
+		/**
+			* @tab Footer
+			* @section footer style
+			* @tip Set the background color and borders for your email's footer area.
+			* @theme footer
+			*/
+
+		#templateFooter {
+			/*@editable*/
+			background-color: #F4F4F4;
+			/*@editable*/
+			border-top: 1px solid #FFFFFF;
+		}
+		/**
+			* @tab Footer
+			* @section footer text
+			* @tip Set the styling for your email's footer text. Choose a size and color that is easy to read.
+			* @theme footer
+			*/
+
+		.footerContent {
+			/*@editable*/
+			color: #808080;
+			/*@editable*/
+			font-family: Helvetica;
+			/*@editable*/
+			font-size: 10px;
+			/*@editable*/
+			line-height: 150%;
+			padding-top: 20px;
+			padding-right: 20px;
+			padding-bottom: 20px;
+			padding-left: 20px;
+			/*@editable*/
+			text-align: center;
+		}
+		/**
+			* @tab Footer
+			* @section footer link
+			* @tip Set the styling for your email's footer links. Choose a color that helps them stand out from your text.
+			*/
+
+		.footerContent a:link,
+		.footerContent a:visited,
+		/* Yahoo! Mail Override */
+
+		.footerContent a .yshortcuts,
+		.footerContent a span
+		/* Yahoo! Mail Override */
+
+		{
+			/*@editable*/
+			color: #606060;
+			/*@editable*/
+			font-weight: normal;
+			/*@editable*/
+			text-decoration: underline;
+		}
+		/* /\/\/\/\/\/\/\/\/ MOBILE STYLES /\/\/\/\/\/\/\/\/ */
+
+		@media only screen and (max-width: 480px) {
+			/* /\/\/\/\/\/\/ CLIENT-SPECIFIC MOBILE STYLES /\/\/\/\/\/\/ */
+			body,
+			table,
+			td,
+			p,
+			a,
+			li,
+			blockquote {
+				-webkit-text-size-adjust: none !important;
+			}
+			/* Prevent Webkit platforms from changing default text sizes */
+			body {
+				width: 100% !important;
+				min-width: 100% !important;
+			}
+			/* Prevent iOS Mail from adding padding to the body */
+			/* /\/\/\/\/\/\/ MOBILE RESET STYLES /\/\/\/\/\/\/ */
+			#bodyCell {
+				padding: 10px !important;
+			}
+			/* /\/\/\/\/\/\/ MOBILE TEMPLATE STYLES /\/\/\/\/\/\/ */
+			/* ======== Page Styles ======== */
+			/**
+				* @tab Mobile Styles
+				* @section template width
+				* @tip Make the template fluid for portrait or landscape view adaptability. If a fluid layout doesn't work for you, set the width to 300px instead.
+				*/
+			#templateContainer {
+				max-width: 600px !important;
+				/*@editable*/
+				width: 100% !important;
+			}
+			/**
+				* @tab Mobile Styles
+				* @section heading 1
+				* @tip Make the first-level headings larger in size for better readability on small screens.
+				*/
+			h1 {
+				/*@editable*/
+				font-size: 24px !important;
+				/*@editable*/
+				line-height: 100% !important;
+			}
+			/**
+				* @tab Mobile Styles
+				* @section heading 2
+				* @tip Make the second-level headings larger in size for better readability on small screens.
+				*/
+			h2 {
+				/*@editable*/
+				font-size: 20px !important;
+				/*@editable*/
+				line-height: 100% !important;
+			}
+			/**
+				* @tab Mobile Styles
+				* @section heading 3
+				* @tip Make the third-level headings larger in size for better readability on small screens.
+				*/
+			h3 {
+				/*@editable*/
+				font-size: 18px !important;
+				/*@editable*/
+				line-height: 100% !important;
+			}
+			/**
+				* @tab Mobile Styles
+				* @section heading 4
+				* @tip Make the fourth-level headings larger in size for better readability on small screens.
+				*/
+			h4 {
+				/*@editable*/
+				font-size: 16px !important;
+				/*@editable*/
+				line-height: 100% !important;
+			}
+			/* ======== Header Styles ======== */
+			#templatePreheader {
+				display: none !important;
+			}
+			/* Hide the template preheader to save space */
+			/**
+				* @tab Mobile Styles
+				* @section header image
+				* @tip Make the main header image fluid for portrait or landscape view adaptability, and set the image's original width as the max-width. If a fluid setting doesn't work, set the image width to half its original size instead.
+				*/
+			#headerImage {
+				height: auto !important;
+				/*@editable*/
+				max-width: 600px !important;
+				/*@editable*/
+				width: 100% !important;
+			}
+			/**
+				* @tab Mobile Styles
+				* @section header text
+				* @tip Make the header content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+				*/
+			.headerContent {
+				/*@editable*/
+				font-size: 20px !important;
+				/*@editable*/
+				line-height: 125% !important;
+			}
+			/* ======== Body Styles ======== */
+			/**
+				* @tab Mobile Styles
+				* @section body image
+				* @tip Make the main body image fluid for portrait or landscape view adaptability, and set the image's original width as the max-width. If a fluid setting doesn't work, set the image width to half its original size instead.
+				*/
+			#bodyImage {
+				height: auto !important;
+				/*@editable*/
+				max-width: 560px !important;
+				/*@editable*/
+				width: 100% !important;
+			}
+			/**
+				* @tab Mobile Styles
+				* @section body text
+				* @tip Make the body content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+				*/
+			.bodyContent {
+				/*@editable*/
+				font-size: 18px !important;
+				/*@editable*/
+				line-height: 125% !important;
+			}
+			/* ======== Column Styles ======== */
+			.templateColumnContainer {
+				display: block !important;
+				width: 100% !important;
+			}
+			/**
+				* @tab Mobile Styles
+				* @section column image
+				* @tip Make the column image fluid for portrait or landscape view adaptability, and set the image's original width as the max-width. If a fluid setting doesn't work, set the image width to half its original size instead.
+				*/
+			.columnImage {
+				height: auto !important;
+				/*@editable*/
+				max-width: 260px !important;
+				/*@editable*/
+				width: 100% !important;
+			}
+			/**
+				* @tab Mobile Styles
+				* @section left column text
+				* @tip Make the left column content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+				*/
+			.leftColumnContent {
+				/*@editable*/
+				font-size: 16px !important;
+				/*@editable*/
+				line-height: 125% !important;
+			}
+			/**
+				* @tab Mobile Styles
+				* @section right column text
+				* @tip Make the right column content text larger in size for better readability on small screens. We recommend a font size of at least 16px.
+				*/
+			.rightColumnContent {
+				/*@editable*/
+				font-size: 16px !important;
+				/*@editable*/
+				line-height: 125% !important;
+			}
+			/* ======== Footer Styles ======== */
+			/**
+				* @tab Mobile Styles
+				* @section footer text
+				* @tip Make the body content text larger in size for better readability on small screens.
+				*/
+			.footerContent {
+				/*@editable*/
+				font-size: 14px !important;
+				/*@editable*/
+				line-height: 115% !important;
+			}
+			.footerContent a {
+				display: block !important;
+			}
+			/* Place footer social and utility links on their own lines, for easier access */
+		}
+	</style>
+</head>
+
+<body leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
+	<center>
+		<table align="center" border="0" cellpadding="0" cellspacing="0" height="100%" width="100%" id="bodyTable">
+			<tr>
+				<td align="center" valign="top" id="bodyCell">
+					<!-- BEGIN TEMPLATE // -->
+					<table border="0" cellpadding="0" cellspacing="0" id="templateContainer">
+						<tr>
+							<td align="center" valign="top">
+								<!-- BEGIN PREHEADER // -->
+								<table border="0" cellpadding="0" cellspacing="0" width="100%" id="templatePreheader">
+									<tr>
+										<!-- *|IFNOT:ARCHIVE_PAGE|* -->
+										<td valign="top" width="180" class="preheaderContent" style="padding-top:10px; padding-right:20px; padding-bottom:10px; padding-left:0;">
+											Email not displaying correctly?
+											<br /><a href="*|ARCHIVE|*" target="_blank">View it in your browser</a>.
+										</td>
+										<!-- *|END:IF|* -->
+									</tr>
+								</table>
+								<!-- // END PREHEADER -->
+							</td>
+						</tr>
+						<tr>
+							<td align="center" valign="top">
+								<!-- BEGIN HEADER // -->
+								<table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateHeader">
+									<tr>
+										<td valign="top" class="headerContent">
+											<img src="http://image.tmclient.ticketmaster.com/lib/fe8b1573766d03787d/m/1/Email+header.jpg" alt="header and navigation" usemap="#headernav" title="" width="600" height="88" htmlimgblocked="http://image.tmclient.ticketmaster.com/lib/fe8b1573766d03787d/m/1/Email+header.jpg">
+											<map name="headernav">
+												<area shape="rect" coords="222,63,280,86" href="http://click.tmclient.ticketmaster.com/?qs=02f8fc14f0a44b1ba284c172fb99d5646dfce427ff85cc2bf97d37842177fa499f32e78c8ca30e4a10579a01788930e9" alt="Tickets" target="OxW8FLLWKI-2zQwXx9syVA1">
+												<area shape="rect" coords="286,64,359,85" href="http://click.tmclient.ticketmaster.com/?qs=02f8fc14f0a44b1b43026dd3a6862cd8693297c570260fe9087fb53d5b73163d01d7f239ba0b3b5d3ae1423d9790c3c3" alt="Schedule" target="OxW8FLLWKI-2zQwXx9syVA1">
+												<area shape="rect" coords="364,64,410,84" href="http://click.tmclient.ticketmaster.com/?qs=02f8fc14f0a44b1bec3d7dc1d2f4071d5b751657d3d7043979e4fc4aa3828443135741fb83e3c989d505d4a09c49b263" target="OxW8FLLWKI-2zQwXx9syVA1">
+												<area shape="rect" coords="418,64,464,84" href="http://click.tmclient.ticketmaster.com/?qs=02f8fc14f0a44b1ba738ad1f9ced8383f3a3ecbafd836433b89512c1bd8fbfefa0ac1a47c9c789a8f7e469a115bb42f7" target="OxW8FLLWKI-2zQwXx9syVA1">
+											</map>
+										</td>
+									</tr>
+								</table>
+								<!-- // END HEADER -->
+							</td>
+						</tr>
+						<tr>
+							<td align="center" valign="top">
+								<!-- BEGIN BODY // -->
+								<table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateBody">
+									<tr>
+										<td valign="top" class="bodyContent">
+											<h1>Ice Breaker Event</h1>
+											<h3>Sunday Aug.30th </h3> Fans are invited to join the St. Louis Blues on
+											<strong>Sunday, Aug. 30 from noon until 3 p.m. at Ballpark Village as we kick off the 2015-16 season.</strong>
+										</td>
+									</tr>
+									<tr>
+										<td class="bodyContent" style="padding-top:0; padding-bottom:0;">
+											<a href="http://video.blues.nhl.com/videocenter/console?id=833123" target="_blank"><img src="https://gallery.mailchimp.com/f3782d2737d7aaf18395d5f72/images/27c6a125-b60c-4170-ab60-b233d2c7a7d3.png" height="395" width="100%" style="max-width:560px;" id="bodyImage"></a>
+										</td>
+									</tr>
+									<tr>
+										<td valign="top" class="bodyContent">
+											Come and welcome both New and Retuning players <strong>Vladimir Tarasenko, David Backes, Alex Pietrangelo</strong> and our new Farward <strong>Troy Brouwer</strong>.A list of the activities going on during the even can be found <a href="http://blues.nhl.com/club/news.htm?id=776699" target="_blank">on our site</a>.
+										</td>
+									</tr>
+									<tr>
+										<td valign="top" class="bodyContent">
+											<h1>Playoff Story Lines</h1>
+											<h3>Saturday Apr.25th </h3> The Blues talk about playing desperate in Game 6 to bring the series back home
+										</td>
+									</tr>
+									<tr>
+										<td class="bodyContent" style="padding-top:0; padding-bottom:0;">
+											<a href="http://video.blues.nhl.com/videocenter/console?id=815877" target="_blank"><img src="https://gallery.mailchimp.com/f3782d2737d7aaf18395d5f72/images/9a140467-7b92-4afc-8c6f-2b629b3b9815.png" height="395" width="100%" style="max-width:560px;" id="bodyImage"></a>
+										</td>
+									</tr>
+									<tr>
+										<td valign="top" class="bodyContent">
+											It's desperation time for the blues. Listen to a few of the players talk about how they feel aobut this moment and how much they would like to bring it back home.
+										</td>
+									</tr>
+								</table>
+								<!-- // END BODY -->
+							</td>
+						</tr>
+						<tr>
+							<td align="center" valign="top">
+								<!-- BEGIN COLUMNS // -->
+								<table border="0" cellpadding="20" cellspacing="0" width="100%" id="templateColumns">
+									<tr>
+										<td align="left" valign="top" style="padding-bottom:0;">
+											<table align="left" border="0" cellpadding="0" cellspacing="0" class="templateColumnContainer">
+												<tr>
+													<td class="leftColumnContent">
+														<img src="http://image.tmclient.ticketmaster.com/lib/fe8b1573766d03787d/m/1/hitchcock620.jpg" alt="hitchcock620" title="hitchcock620" style="max-width:260px;" class="columnImage" />
+													</td>
+												</tr>
+												<tr>
+													<td valign="top" class="leftColumnContent">
+														<h3>Blues Training Camp Open to Public on Sept. 19th and 20th</h3>Camp begins with Hall of Fame Plaza unveiling
+														<br />
+														<br /> Each day will feature two camp sessions and two scrimmages. The first session will begin at 10 a.m. and the second at 12:30 p.m., while scrimmages are scheduled for 11:15 a.m. and 1:45 p.m.
+														<br />
+														<br />Stay up-to-date with practice times and location by visiting
+														<br /><a href="http://blues.nhl.com/club/news.htm?id=778394" target="_blank">http://blues.nhl.com/trainingcamp</a>
+													</td>
+												</tr>
+											</table>
+											<table align="right" border="0" cellpadding="0" cellspacing="0" class="templateColumnContainer">
+												<tr>
+													<td class="rightColumnContent">
+														<img src="http://1.cdn.nhle.com/blues/images/upload/2015/09/pietrangelo_alex620.jpg" style="max-width:260px; min-height:159.77px;" class="columnImage" />
+													</td>
+												</tr>
+												<tr>
+													<td valign="top" class="rightColumnContent">
+														<h3>Catching up with Alex Pietrangelo</h3> Blues defenseman talks lessons learned, offseason changes and NHL 16
+														<br />
+														<br />We caught up with Pietrangelo after a recent informal skate to talk about his summer, the roster changes, what the club learned from last season and even NHL 16.
+														<br />
+														<br />To read the full interview go to <a href="http://blues.nhl.com/club/news.htm?id=778183" target="_blank">http://blues.nhl.com/news</a>
+													</td>
+												</tr>
+											</table>
+											<table align="left" border="0" cellpadding="0" cellspacing="0" class="templateColumnContainer" style="clear:both;">
+												<tr>
+													<td class="leftColumnContent">
+														<img src="http://www.scottradecenter.com/assets/img/TSO15_960x480.jpg" style="max-width:260px;" class="columnImage" />
+													</td>
+												</tr>
+												<tr>
+													<td valign="top" class="leftColumnContent">
+														<h3>Trans-Siberian Orchestra</h3> Trans-Siberian Orchestra are in town Dec. 27th
+														<br />
+														<br /> Trans-Siberian Orchestra will be doing two show on Dec. 27th first is at 3 p.m. second is at 7:30 p.m.
+														<br />
+														<br /> Tickts are (TBA) but will be avialbe on <a href="http://www.scottradecenter.com/events/detail/trans-siberian-orchestra" target="_blank">http://www.scottradecenter.com/trans-siberian-orchestra</a>
+													</td>
+												</tr>
+											</table>
+											<table align="right" border="0" cellpadding="0" cellspacing="0" class="templateColumnContainer">
+												<tr>
+													<td class="rightColumnContent">
+														<a href="http://blues.nhl.com/club/news.htm?id=776556" target="_blank"><img src="http://2.cdn.nhle.com/blues/images/upload/2014/11/458544880_620.jpg" alt="Promo Ad for promo schedule" style="max-width:260px;" class="columnImage"></a>
+													</td>
+												</tr>
+												<tr>
+													<td valign="top" class="rightColumnContent">
+														<h3>Up Coming Promos</h3>
+														<a href="http://blues.nhl.com/club/news.htm?id=776556" target="_blank">Veiw full list </a>of upcoming promotion events.
+														<br />
+														<br /> We have four diffrent bobblehead night feturing <strong>Keven Shattenkirk, Chris Pronger, Davaid Backes</strong> and <strong>Alex Pietrangelo.</strong> As well as <strong>apparel nights, must have pormotions</strong> and <strong>ticket promotions.</strong>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+									<tr>
+										<td class="bodyContent" style="padding-top:0; padding-bottom:0;">
+											<a href="http://www.stltoday.com/" target="_blank"><img src="https://gallery.mailchimp.com/f3782d2737d7aaf18395d5f72/images/a65beb21-762f-4cc6-93a1-ffc2b71f8b5d.png" height="200" width="100%" style="max-width:560px; max-height:150px;" id="bodyImage"></a>
+										</td>
+									</tr>
+								</table>
+								<!-- // END COLUMNS -->
+							</td>
+						</tr>
+						<tr>
+							<td align="center" valign="top">
+								<!-- BEGIN FOOTER // -->
+								<table border="0" cellpadding="0" cellspacing="0" width="100%" id="templateFooter">
+									<tr>
+										<td valign="top" class="footerContent">
+											<a href="*|TWITTER:PROFILEURL|*">Follow on Twitter</a>&nbsp;&nbsp;&nbsp;<a href="*|FACEBOOK:PROFILEURL|*">Friend on Facebook</a>&nbsp;&nbsp;&nbsp;<a href="*|FORWARD|*">Forward to Friend</a>&nbsp;
+										</td>
+									</tr>
+									<tr>
+										<td valign="top" class="footerContent" style="padding-top:0;">
+											<img width="264" border="0" height="82" src="http://image.tmclient.ticketmaster.com/lib/fe8b1573766d03787d/m/1/companylogos.jpg" alt="" title="" usemap="#Map">
+											<map name="Map">
+												<area shape="rect" coords="2,6,82,73" href="http://click.tmclient.ticketmaster.com/?qs=0f18429e089d466853c7e96cf229a64961732a30adf71799be29229096788c0d2a583737f7ac5f624f6bc6e53f2f28f3" alt="St. Louis Blues" target="jkHvySG4lFvO-gtkLsDHig1">
+												<area shape="rect" coords="90,7,183,71" href="http://click.tmclient.ticketmaster.com/?qs=0f18429e089d4668e70379a70db92777807d22803e369307f372341eca370d34f6f0b4797c9f2b3bef88e707f5306b2b" alt="Scottrade Center" target="jkHvySG4lFvO-gtkLsDHig1">
+												<area shape="rect" coords="195,7,255,74" href="http://click.tmclient.ticketmaster.com/?qs=0f18429e089d4668d49074533a2c363cd0e6dacf78875c2325adc41ea3d69daf1f89f2683c03fab6ddfa0b814f881cfe" alt="Peabody Opera House" target="jkHvySG4lFvO-gtkLsDHig1">
+											</map>
+											<br />
+											<em>Copyright &copy; 2015 St.Louis Blues, All rights reserved.</em>
+											<br />
+											<br />
+											<strong>Our mailing address is:</strong>
+											<br /> support@stlblues.com
+										</td>
+									</tr>
+									<tr>
+										<td valign="top" class="footerContent" style="padding-top:0;">
+											<a href="*|UNSUB|*">unsubscribe from this list</a>&nbsp;&nbsp;&nbsp;<a href="*|UPDATE_PROFILE|*">update subscription preferences</a>&nbsp;
+										</td>
+									</tr>
+								</table>
+								<!-- // END FOOTER -->
+							</td>
+						</tr>
+					</table>
+					<!-- // END TEMPLATE -->
+				</td>
+			</tr>
+		</table>
+	</center>
+</body>
+
+</html>
